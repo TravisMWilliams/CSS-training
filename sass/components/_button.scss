@@ -53,6 +53,16 @@
       z-index: -1;
     }
   }
+  
+  &--green {
+    background-color: $color-primary;
+    color: $color-white;
+    
+    &::after {
+      background-color: $color-primary;
+      z-index: -1;
+    }
+  }
 
 }
 
