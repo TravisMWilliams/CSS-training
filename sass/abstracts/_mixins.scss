@@ -26,7 +26,10 @@ Breakpoint argument choices:
 - tab-port
 - tab-land
 - big-desktop
+
+Order: Base + typography > general layout + grid > page layout > components
 */
+
 @mixin respond($breakpoint) {
   @if $breakpoint == phone {
     @media (max-width: 37.5em) { @content}; //600px
